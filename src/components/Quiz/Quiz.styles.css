@@ -1,0 +1,11 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+/* git commit -m "first commit" */
+/* git branch -M main */
+/* git remote add origin https://github.com/itai-rozen/React-Excersizes.git */
+/* git push -u origin main */

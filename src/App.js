@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Quiz from './components/Quiz/Quiz.component';
+// import Boxes from './components/Boxes/Boxes.component';
+// import HelloWorld from './components/Basics/HelloWorld';
 
 function App() {
+  const data=['Hello', 'World']
+  const number1 = 5;
+  const number2 =6;
+  // <HelloWorld  data={data} numbers={[number1, number2]} />
+  // <Boxes />
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Quiz />
     </div>
   );
 }
