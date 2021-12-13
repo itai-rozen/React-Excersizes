@@ -1,0 +1,14 @@
+.box {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.hide {
+    display: none;
+}
+
+.hi {
+    border-radius: 50%;
+}

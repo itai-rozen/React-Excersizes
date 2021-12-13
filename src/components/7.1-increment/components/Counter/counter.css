@@ -1,0 +1,11 @@
+.counter-container {
+font-size: 2rem;
+}
+
+.increment-btn {
+    background-color: pink;
+    font-size: 2rem;    
+}
+.counter {
+    margin: 20px;
+}
