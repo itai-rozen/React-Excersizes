@@ -1,0 +1,12 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.boxxy {
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}

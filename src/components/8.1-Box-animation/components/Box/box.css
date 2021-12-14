@@ -1,0 +1,20 @@
+.animated-box {
+    background-color: rebeccapurple;
+    margin-top: 10px;
+    transform: translateX(-100px);
+}
+
+.enter-animation {
+    animation: enter 0.5s ease-in forwards;
+}
+
+
+
+@keyframes enter {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}

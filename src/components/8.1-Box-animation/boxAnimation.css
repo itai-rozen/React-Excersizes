@@ -1,0 +1,8 @@
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100px;
+}

@@ -4,17 +4,19 @@ import './incrementDecrement.css'
 class InrementDecrement extends React.Component {
     constructor(props) {
         super(props)
-        this.state = { number: 0, labelColor: '' }
+        this.state = { number: 0, labelColor: 'black' }
         this.updateNumber = this.updateNumber.bind(this)
     }
     updateNumber(e){
         const operator = e.target.textContent
         if (this.state.number >= -10 || this.state.number <= 10){
-            if (operator === '+') this.setState({number: this.state.number+1})
-            else this.setState({number: this.state.number-1})
-            if (this.state.number > 0) this.setState({labelColor: 'green'})
-            else if (this.state.number < 0) this.setState({labelColor: 'red'})
-            else  this.setState({labelColor: 'black'})
+            if (operator === '+') this.setState((prevState) => {return({number: prevState.number+1})})
+            else this.setState((prevState) => {return {number: prevState.number-1}})
+            this.setState((prevState) => {
+                if (prevState.number > 0) return ({labelColor:'red'})
+                else if (prevState.number < 0) return ({labelColor:'green'})
+                else return ({labelColor:'black'})
+            })
         }
         else return
     }
