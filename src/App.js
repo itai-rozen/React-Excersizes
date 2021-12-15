@@ -13,6 +13,9 @@ import BoxAnimation from './components/8.1-Box-animation/BoxAnimation';
 import FavouriteColor from './components/8.1-life-cycle-methods/FavouriteColoe';
 import ChangingColor from './components/8.2-Changing-box/ChangingColor';
 import Timer from './components/9.1-Spinner/Timer';
+import ButtonsContainer from './components/11.1-Child-to-father/ButtonsContainer';
+import Checkboxes from './components/11.2-Checkboxes/Checkboxes';
+import FormHandler from './components/11.3-Form-review/FormHandler';
 
 
 function App() {
@@ -21,7 +24,7 @@ function App() {
   const number2 =6;
   return (
     <div className="App">
-      <Timer />
+      <FormHandler />
     </div>
   );
 }

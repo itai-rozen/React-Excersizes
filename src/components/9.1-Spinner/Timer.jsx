@@ -1,6 +1,6 @@
 import React from 'react'
 import Spinner from './components/Spinner/Spinner'
-import './timer.css'
+
 
 class Timer extends React.Component{
     constructor(){
@@ -17,7 +17,12 @@ class Timer extends React.Component{
 
     renderContent(){
         if (this.state.count > 0){
-            return <Spinner />
+            return (
+            <div>
+            <p class="count">{this.state.count}</p>
+            <Spinner />
+            </div>
+            )
         } else return <></>
     }
     componentDidMount() {
