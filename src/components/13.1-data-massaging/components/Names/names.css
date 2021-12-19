@@ -1,0 +1,7 @@
+.names-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2rem;
+    border-bottom: 3px solid black;
+}

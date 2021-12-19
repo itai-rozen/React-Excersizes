@@ -16,6 +16,9 @@ import Timer from './components/9.1-Spinner/Timer';
 import ButtonsContainer from './components/11.1-Child-to-father/ButtonsContainer';
 import Checkboxes from './components/11.2-Checkboxes/Checkboxes';
 import FormHandler from './components/11.3-Form-review/FormHandler';
+import TexasRanger from './components/12.1-chuck_norris/TexasRanger';
+import Avatars from './components/13.2-avatars/Avatars';
+import Massage from './components/13.1-data-massaging/Massage';
 
 
 function App() {
@@ -24,7 +27,7 @@ function App() {
   const number2 =6;
   return (
     <div className="App">
-      <FormHandler />
+      <Massage />
     </div>
   );
 }

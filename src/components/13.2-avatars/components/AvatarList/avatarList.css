@@ -1,0 +1,12 @@
+.avatar-card {
+    border: 2px solid black;
+    margin: 10px 5px;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.avatar-card img {
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+}

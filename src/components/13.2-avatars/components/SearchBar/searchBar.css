@@ -1,0 +1,9 @@
+.avatar-search {
+    text-align: center;
+}
+.avatar-search input {
+    width: 80%;
+    font-size: 2rem;
+    margin: 10px auto;
+    padding: 5px;
+}
