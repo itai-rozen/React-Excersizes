@@ -19,6 +19,8 @@ import FormHandler from './components/11.3-Form-review/FormHandler';
 import TexasRanger from './components/12.1-chuck_norris/TexasRanger';
 import Avatars from './components/13.2-avatars/Avatars';
 import Massage from './components/13.1-data-massaging/Massage';
+import Form from './components/14.1-focus/Form';
+import TextArea from './components/14.2-copy/TextArea';
 
 
 function App() {
@@ -27,7 +29,7 @@ function App() {
   const number2 =6;
   return (
     <div className="App">
-      <Massage />
+      <Form />
     </div>
   );
 }
