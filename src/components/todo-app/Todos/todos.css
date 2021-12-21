@@ -1,0 +1,12 @@
+.todo-list-container{
+    border: 3px solid #492C1D;
+    padding: 50px 20px;
+    background-color: #8EB8E5;
+    width: 80%;
+    font-size: 1.5rem;
+    border-radius: 13px;
+}
+
+.add-btn {
+    margin: 20px;
+}

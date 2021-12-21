@@ -21,16 +21,20 @@ import Avatars from './components/13.2-avatars/Avatars';
 import Massage from './components/13.1-data-massaging/Massage';
 import Form from './components/14.1-focus/Form';
 import TextArea from './components/14.2-copy/TextArea';
+import MainApp from './components/16.1-Products/MainApp';
+import TodoApp from './components/todo-app/TodoApp';
+
 
 
 function App() {
-  const data=['Hello', 'World']
+  const data = ['Hello', 'World']
   const number1 = 5;
-  const number2 =6;
+  const number2 = 6;
   return (
-    <div className="App">
-      <Form />
-    </div>
+      <div className="App">
+        <TodoApp />
+      </div>
+
   );
 }
 

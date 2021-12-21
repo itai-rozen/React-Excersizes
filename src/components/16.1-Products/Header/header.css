@@ -1,0 +1,6 @@
+.header-container {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}

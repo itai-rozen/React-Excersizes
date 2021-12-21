@@ -1,0 +1,15 @@
+.todo-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    border-bottom: 3px solid transparent;
+    padding: 10px 0;
+}
+
+.todo-container:hover {
+    border-bottom-color: #492C1D;
+}
+
+.content {
+    width: 60%;
+}

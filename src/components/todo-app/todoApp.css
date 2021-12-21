@@ -1,0 +1,21 @@
+
+.app-container {
+    background-color: #7C99B4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #5B5750;
+    border-radius: 13px;
+    padding: 10px;
+    font-size: 2rem;
+    color: #ccc;
+}
+
+button:hover {
+    background-color: #5c6861;
+    color: #f1f1f1;
+}
