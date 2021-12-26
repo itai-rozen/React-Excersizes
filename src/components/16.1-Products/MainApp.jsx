@@ -6,9 +6,9 @@ import Homepage from './Homepage/Homepage'
 import Products from './Products/Products'
 
 class MainApp extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
-        this.state = {store : []}
+        this.state = { store: [] }
     }
     componentDidMount() {
         this.setState({ store: storeProducts })
@@ -17,10 +17,14 @@ class MainApp extends React.Component {
     render() {
         return (
             <div>
-            <Header store={this.state.store}/>
+                <Header store={this.state.store} />
+                <BrowserRouter>
+   
+                </BrowserRouter>
             </div>
-            
-        )   
+
+
+        )
     }
 }
 

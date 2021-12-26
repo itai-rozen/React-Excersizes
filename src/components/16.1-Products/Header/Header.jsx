@@ -13,15 +13,15 @@ class Header extends React.Component {
                     <Link to='/' >Homepage</Link>
                     <Link to='/products' >Products</Link>
                 </div>
-
-                <Switch>
-                    <Route exact path="/" >
+                <Route exact path="/" component={Homepage} >
                         <Homepage />
                     </Route>
                     <Route exact path="/products" >
-                        <Products />
+                        <Products products={this.props.store} />
                     </Route>
-                </Switch>
+                    <Route path="/products/:id">
+                        <ProductDetails products={this.props.store} />
+                    </Route>
             </BrowserRouter>
         )
     }

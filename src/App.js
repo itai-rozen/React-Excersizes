@@ -23,7 +23,10 @@ import Form from './components/14.1-focus/Form';
 import TextArea from './components/14.2-copy/TextArea';
 import MainApp from './components/16.1-Products/MainApp';
 import TodoApp from './components/todo-app/TodoApp';
-
+import Text from './components/18.1-text/Text';
+import SimpleTodo from './components/18.2-simple-todo/SimpleeTodo';
+import Time from './components/18.3-whats-the-time/Time';
+import Checks from './components/18.4-marking-deleting/Checks';
 
 
 function App() {
@@ -32,7 +35,7 @@ function App() {
   const number2 = 6;
   return (
       <div className="App">
-        <TodoApp />
+        <Checks />
       </div>
 
   );

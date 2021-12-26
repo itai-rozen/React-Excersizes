@@ -11,16 +11,11 @@ class ProductDetails extends React.Component {
     }
     render() {
 
-        const { store } = this.props
-        console.log('store: ',store)
         return (
             <div>
                 <h1>yo! details</h1>
                 <div className="details-container">
 
-                    {/* <h2>{product.title}</h2>
-                    <h3>{product.price}$</h3>
-                    <img src={product.imageUrl} alt="" /> */}
                 </div>
             </div>
         )
