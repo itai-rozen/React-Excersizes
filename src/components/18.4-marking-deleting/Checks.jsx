@@ -12,12 +12,13 @@ export default function Checks() {
         checksCopy[i] = checked
         setIndicesToDelete(checksCopy)
     }
-
     const deleteChecks = () => setChecks(indicesToDelete)
     const resetChecks = () => {
         setChecks([false, false, false, false, false])
         setIndicesToDelete([false, false, false, false, false])
     }
+    console.log(setChecks)
+
 
     return <div>
         <button onClick={() => deleteChecks()}>Delete</button>

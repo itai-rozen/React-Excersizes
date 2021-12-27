@@ -27,7 +27,9 @@ import Text from './components/18.1-text/Text';
 import SimpleTodo from './components/18.2-simple-todo/SimpleeTodo';
 import Time from './components/18.3-whats-the-time/Time';
 import Checks from './components/18.4-marking-deleting/Checks';
-
+import SimpleFetch from './components/19.1-simple-fetch/SimpleFetch';
+import Countries from './components/19.2-countries-api/Countries';
+import Algolia from './components/19.3-algolia/Algolia';
 
 function App() {
   const data = ['Hello', 'World']
@@ -35,7 +37,7 @@ function App() {
   const number2 = 6;
   return (
       <div className="App">
-        <Checks />
+        <Countries />
       </div>
 
   );
