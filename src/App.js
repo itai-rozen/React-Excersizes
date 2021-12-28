@@ -30,6 +30,10 @@ import Checks from './components/18.4-marking-deleting/Checks';
 import SimpleFetch from './components/19.1-simple-fetch/SimpleFetch';
 import Countries from './components/19.2-countries-api/Countries';
 import Algolia from './components/19.3-algolia/Algolia';
+import Cancel from './components/19.2-countries-api/Cancel';
+import EditRef from './components/21.1-edit/EditRef';
+import PlayPause from './components/21.2-play-pause/PlayPaude';
+import ToggleImage from './components/21.3-toggle-image/ToggleImage';
 
 function App() {
   const data = ['Hello', 'World']
@@ -37,7 +41,7 @@ function App() {
   const number2 = 6;
   return (
       <div className="App">
-        <Countries />
+        <ToggleImage />
       </div>
 
   );
